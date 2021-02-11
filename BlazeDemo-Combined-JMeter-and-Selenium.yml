@@ -6,14 +6,6 @@ modules:
     ignore-unknown-actions: true
 
 execution:
-- executor: selenium
-  scenario: BlazeDemo-Selenium
-  blazegrid: true
-  
-  capabilities: 
-    browserName: chrome
-  hold-for: 20m
-
 - executor: jmeter
   scenario: BlazeDemo-Http
   concurrency: 20
